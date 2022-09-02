@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.card {
+    background-color: #0c1c30 !important;
+    border: 0;
+    border-color: transparent;
+}
+
+
+.title {
+    text-align: center;
+    color: #32BBC8;
+    font-family: 'Share Tech Mono', monospace !important;
+    font-size: 25px !important;
+    text-transform: uppercase !important;
+}
+
+.content-card {
+    background-color: #0c1c30;
+}
+
+.description {
+    color: white;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace !important;
+    font-size: 18px !important;
+}

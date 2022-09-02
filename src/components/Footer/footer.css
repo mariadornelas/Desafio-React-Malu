@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.footer-container {
+    background-color: #32BBC8;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 0;
+    z-index: 20;
+}
+
+.footer-newsletter {
+    width: auto;
+    display: block;
+}
+
+.footer-newsletter h1 {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.footer-newsletter p {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14px;
+    text-align: center;
+    width: 300px;
+    padding-left: 45px;
+}
+
+.footer-newsletter .form5 {
+    width: 300px;
+    padding-left: 70px;
+}
+
+.footer-newsletter .form5 input {
+    width: 172px;
+    height: 25px;
+    outline: none;
+    border-color: transparent;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.footer-newsletter .form5 button {
+    width: 75px;
+    height: 32px;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-left: 3px;
+    background-color: #0c1c30;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-center {
+    display: block;
+    width: auto;
+}
+
+.reserved {
+    margin-top: 70px;
+}
+
+.footer-center .reserved h1 {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    color: #0c1c30;
+}
+
+
+.footer-social {
+    width: auto;
+    display: inline;
+    margin-top: 60px;
+    padding-right: 80px;
+}
+
+.footer-social i {
+    font-size: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+}
